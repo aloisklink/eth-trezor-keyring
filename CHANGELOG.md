@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- Update `trezor-connect` to `8.2.3-extended`.
+  This adds support for EIP-1559 transactions for the Trezor Model One (i.e. all trezor models).
+
 ## [0.8.0]
 ### Added
 - Support for EIP-1559 transactions for the Model T ([#108](https://github.com/MetaMask/eth-trezor-keyring/pull/108))
