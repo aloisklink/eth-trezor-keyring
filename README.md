@@ -1,7 +1,8 @@
 # eth-trezor-keyring
 
-An implementation of MetaMask's [Keyring interface](https://github.com/MetaMask/eth-simple-keyring#the-keyring-class-protocol), that uses a TREZOR hardware
-wallet for all cryptographic operations.
+An implementation of MetaMask's
+[Keyring interface](https://github.com/MetaMask/eth-simple-keyring#the-keyring-class-protocol),
+that uses a TREZOR hardware wallet for all cryptographic operations.
 
 In most regards, it works in the same way as
 [eth-hd-keyring](https://github.com/MetaMask/eth-hd-keyring), but using a TREZOR
