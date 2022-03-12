@@ -5,8 +5,8 @@ An implementation of MetaMask's
 that uses a TREZOR hardware wallet for all cryptographic operations.
 
 In most regards, it works in the same way as
-[eth-hd-keyring](https://github.com/MetaMask/eth-hd-keyring), but using a TREZOR
-device. However there are a number of differences:
+[eth-hd-keyring](https://github.com/MetaMask/eth-hd-keyring),
+but using a TREZOR device. However there are a number of differences:
 
 - Because the keys are stored in the device, operations that rely on the device
   will fail if there is no TREZOR device attached, or a different TREZOR device
